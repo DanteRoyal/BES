@@ -34,10 +34,4 @@
 * HTTP를 암호화하여 전송하면 HTTPS
 * SSL(TLS) 프로토콜을 사용해 클라이언트와 서버가 요청/응답을 할때 텍스트를 공개키 암호화 방식으로 암호화한다.
 
-|       HTTPS        |                   |
-| :----------------: | :---------------: |
-|        HTTP        | Application Layer |
-|      TLS/SSL       |  Security Layer   |
-|        TCP         |  Transport Layer  |
-|         IP         |   Network Layer   |
-| Network Interfaces |  Data Link Layer  |
+![](/week1//image/HTTP_HTTPS_Layers.png)
