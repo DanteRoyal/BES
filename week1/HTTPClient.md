@@ -102,7 +102,7 @@ String body = """
 
 ## Java InputStream과 OutputStream (추가 공부후 업데이트)
 
-![까먹https://hudi.blog/java-inputstream-outputstream/음](/week1//image/input%3Aoutputstream.png)
+![https://hudi.blog/java-inputstream-outputstream](/week1//image/input%3Aoutputstream.png)
 
 - Stream은 기본적으로 데이터가 출발지에서 도착지로 단방향으로 흘러가는 것.
 - 바이트 기반 입출력을 하는 스트림 클래스
