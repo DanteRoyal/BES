@@ -105,7 +105,7 @@ Ex    : HTTP/1.1 200 OK
 ```
 
 - HTTP-version
-- HTTP 상태코드
+- status-code: HTTP 상태코드
 - reason-phrase: 상태코드에 관한 간단한 설명
 
 multipart/form-data
