@@ -14,7 +14,7 @@
   |클라이언트에 응답(Socket.getOutputStream())|->|서버가 보낸 메세지를 받음(Socket.getInputStream())|
   |종료 (Socket.close())| |종료(Socket.close())|
 
-## Blocking vs Non-Blocking(추가 공부 필요)
+## Blocking vs Non-Blocking
 
-- Blocking: 호출된 대상이 자신의 작업을 완료 할때까지 작업의 제어권을 가지고 있어서 호출한 대상은 대기하는 것
-- Non-Blocking: 호출된 대상이 자신의 작업을 완료하지 않았어도 호출한 대상은 다른일을 진행하는 것
+- Blocking: 특정 작업이 완료될 때까지 프로세스의 흐름이 중단되는 것. 작업이 완료 될때까지 멈추게 되므로 비효율적
+- Non-Blocking: 특정 작업이 완료되지 않아도 프로세스의 흐름을 계속 진행하는 것. 다른 작업을 병렬적으로 처리 할 수 있어 효율성이 증가. Non-blocking은 비동기 프로그래밍과 관련이 깊어 콜백함수, 프로미스, 이벤트 루프 등의 개념을 활용하여 구현 가능.
