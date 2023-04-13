@@ -12,7 +12,7 @@
   |클라이언트의 요청을 처리(Socket.accept())|<-|서버에 접속 요청(Socket)|
   |클라이언트가 보낸 요청을 읽음(Socket.getInputStream())|<-|서버에 요청 메세지를 보냄(Socket.OutputStream())|
   |클라이언트에 응답(Socket.getOutputStream())|->|서버가 보낸 메세지를 받음(Socket.getInputStream())|
-  |종료 (Socket.close())||종료(Socket.close())|
+  |종료 (Socket.close())| |종료(Socket.close())|
 
 ## Blocking vs Non-Blocking(추가 공부 필요)
 
