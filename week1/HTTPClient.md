@@ -102,13 +102,17 @@ String body = """
 
 ## Java InputStream과 OutputStream (추가 공부후 업데이트)
 
-![](/week1//image/input:outputStream.png)
+![까먹https://hudi.blog/java-inputstream-outputstream/음](/week1//image/input%3Aoutputstream.png)
 
 - Stream은 기본적으로 데이터가 출발지에서 도착지로 단방향으로 흘러가는 것.
 - 바이트 기반 입출력을 하는 스트림 클래스
   - 바이트 기반 입출력 스트림: 그림 등 모든 종류의 데이터들을 주고 받음
   - 문자 기반 입출력 스트림: 문자만 주고 받음
 
-* 스트림은 단방향 통신
+* 스트림은 단방향 통신이기 때문에 입력과 출력을 각각 사용해야함
 
-## Java try-with-resources
+## Java try-with-resources(추가 공부후 업데이트)
+
+- `try-catch-finally`를 사용하는 경우의 단점을 보완함
+- `try()`괄호안에 객체를 선언하면 try블록이 끝날 때 해당 객체를 자동으로 `close()` 함
+- 괄호 안에 들어갈 객체는 AutoCloseable 인터페이스가 구현 되어 있어야함
