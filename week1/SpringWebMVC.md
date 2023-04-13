@@ -64,10 +64,13 @@ Spring Framework는 자바 애플리케이션 개발을 위한 오픈소스 프�
 ![https://terasolunaorg.github.io/guideline/5.3.1.RELEASE/en/Overview/SpringMVCOverview.html](/week1//image/Spring_MVC.png)
 |이름|역할|
 |:---------:|:-------:|
-|D|역할|
+|D|역할|
 |||
 
 ## Java Annotation
+
+- 자바의 애너테이션은 주석과 같은 역할이지만, 예를 들어 `@Override`같은 경우 메서드 위에 추가를 할 시, 컴파일 단계에서 제대로 Override이 됬는지 체크를 해준다.
+- 기본적으로 제공해주는 표준 애너테이션, 애너테이션을 위해 사용하는 메타애너테이션, 사용자가 직접 만든 애너테이션이 있다.
 
 ## Spring Annotation
 
