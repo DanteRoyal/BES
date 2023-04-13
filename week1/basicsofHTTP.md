@@ -70,3 +70,70 @@
 * 세션이 생성되면 쿠키도 생성되어 반환된다.
 
 ## HTTP 메세지 구조
+
+![https://developer.mozilla.org/ko/docs/Web/HTTP/Messages](/week1//image/HTTP_Messages.png)
+
+- start line
+  - start line에 요청이나 응답의 상태를 표시
+  - 응답에서는 status line이라고 부름
+- HTTP headers
+  - HTTP 전송에 필요한 부가정보를 포함
+- empty line
+  - 헤더와 바디를 구분하는 공백
+- body
+  - 요청과 응답에 필요한 데이터를 작성하여 보내는 곳
+  * HTML, 이미지,영상, JSON 등 byte로 표현 가능한 데이터를 전송가능
+
+### HTTP 요청(Reuqest)와 응답(Response)
+
+```
+요청
+Request-line
+Format: [method]SP[request-target]SP[HTTP-version]CRLF
+Ex    : GET /search?q=hello&hl=ko HTTP/1.1
+```
+
+- method: HTTP 메소드를 지정
+- request-target: 요청 대상(쿼리스트링)
+- HTTP-version
+
+```
+응답
+Status-line
+Format: [HTTP-version]SP[status-code]SP[reason-phrase]
+Ex    : HTTP/1.1 200 OK
+```
+
+- HTTP-version
+- HTTP 상태코드
+- reason-phrase: 상태코드에 관한 간단한 설명
+
+multipart/form-data
+
+- Content-Type을 multiplart/form-data로 설정시 파일 업로드와 같이 바이너리 데이터를 전송시 사용한다.
+
+### HTTP 요청 메서드(HTTP request methods)
+
+GET
+
+- 리소스 조회에 사용
+- 쿼리스트링을 사용하여 필요한 리소스를 요청
+- 보통 메세지 바디는 사용하지 않음
+
+POST
+
+- 메세지 바디를 통해 서버로 필요한 데이터를 요청
+- 리소스 등록에 사용
+
+PUT
+
+- 리소스가 없을 경우 생성하고 있을 경우 수정함
+
+PATCH
+
+- 리소스 부분 변경
+- 없을시 별도로 생성 안함
+
+DELETE
+
+- 리소스를 삭제
