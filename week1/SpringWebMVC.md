@@ -69,8 +69,8 @@ Spring Framework는 자바 애플리케이션 개발을 위한 오픈소스 프�
 4. HandlerAdapter는 Controller의 비지니스 로직 프로세스를 호출
 5. 컨트롤러는 비지니스 로직을 수행 후 처리 결과를 Model에 저장한 후 View의 이름을 반환한다.
 6. DispatcherServlet은 반환 받은 View의 이름을 ViewResolver에 전송하고 ViewResolver는 매핑된 View를 반환한다.
-   7.DispatcherServlet는 반환된 View에 렌더링을 하도록 한다.
-   8.View는 Model 데이터를 렌더링하고 응답을 한다.
+7. DispatcherServlet는 반환된 View에 렌더링을 하도록 한다.
+8. View는 Model 데이터를 렌더링하고 응답을 한다.
 
 ## Java Annotation
 
