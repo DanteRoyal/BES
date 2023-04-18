@@ -11,6 +11,13 @@
   - [5. Spring Web MVC](week1/SpringWebMVC.md)
 
 - [2주차]
+
+  - [1. REST API](week2/)
+  - [2. URI & MIME Type](week2/)
+  - [3. Collection Pattern](week2/)
+  - [4. Collection Patter 적용](week2/)
+  - [5. Spring Web MVC](week2/)
+
 - [3주차]
 - [4주차]
 - [5주차]
