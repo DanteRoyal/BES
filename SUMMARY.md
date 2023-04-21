@@ -13,9 +13,9 @@
 - [2주차]
 
   - [1. REST API](week2/RESTAPI.md)
-  - [2. URI & MIME Type](week2/)
-  - [3. Collection Pattern](week2/)
-  - [4. Spring Web MVC](week2/)
+  - [2. URI & MIME Type](week2/URI%26MIME.md)
+  - [3. Collection Pattern](week2/CollectionPattern.md)
+  - [4. Spring Web MVC](week2/SpringAnnotations.md)
 
 - [3주차]
 - [4주차]
