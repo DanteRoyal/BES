@@ -17,7 +17,8 @@ REST에서 가장 중요하며 기본적인 규칙
 - /users는 유저에 관련된 리소스 모음이고 /products는 제품 관련된 리소스의 모음
 
 * /users/1 -> user : colloection, 1 : element
-  ![직접 작성](/week2/image/URI.png)
+
+![직접 작성](/week2/image/URI.png)
 
 ## CQS
 
