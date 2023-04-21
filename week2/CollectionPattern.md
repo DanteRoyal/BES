@@ -17,10 +17,7 @@ REST에서 가장 중요하며 기본적인 규칙
 - /users는 유저에 관련된 리소스 모음이고 /products는 제품 관련된 리소스의 모음
 
 * /users/1 -> user : colloection, 1 : element
-  |URI|GET|PUT|POST|DELETE|PATCH|
-  |:---------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-  |Collection URI https://example.com/users |전체 User를 조회한다|유저를 다른 유저 데이터로 변경|해당 컬렉션에 속하는 새로운 유저를 생성|유저 전체를 삭제|전체 유저중 일부 유저를 부분|
-  |Elecmet URI https://example.com/users/1|요청한 1번 유저를 반환|해당 유저가 있을 경우 수정|해당 유저에 속하는 새로운 리소스를 생성|해당유저를 삭제|해당 유저가 있을시 부분 수정|
+  ![직접 작성](/week2/image/URI.png)
 
 ## CQS
 
